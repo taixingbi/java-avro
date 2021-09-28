@@ -1,0 +1,32 @@
+{"namespace": "com.hello",
+  "type": "record",
+  "name": "UserData",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": ["string","null"]
+    }
+//    {
+//      "name": "address",
+//      "type":
+//      [{
+//        "name": "address",
+//        "type": "record",
+//        "fields": [
+//          {
+//            "name": "city",
+//            "type": "string"
+//          }
+//        ]
+//      },null]
+//    }
+  ]
+}

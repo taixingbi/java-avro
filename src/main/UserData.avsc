@@ -1,0 +1,9 @@
+{"namespace": "com.hello",
+ "type": "record",
+ "name": "UserData",
+ "fields": [
+     {"name": "id", "type": "string"},
+     {"name": "name",  "type": ["string", "null"]},
+     {"name": "email", "type": ["string", "null"]}
+ ]
+}
