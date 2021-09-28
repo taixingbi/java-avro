@@ -13,20 +13,20 @@
     {
       "name": "email",
       "type": ["string","null"]
+    },
+    {
+      "name": "address",
+      "type":
+      [{
+        "name": "address",
+        "type": "record",
+        "fields": [
+          {
+            "name": "city",
+            "type": "string"
+          }
+        ]
+      },"null"]
     }
-//    {
-//      "name": "address",
-//      "type":
-//      [{
-//        "name": "address",
-//        "type": "record",
-//        "fields": [
-//          {
-//            "name": "city",
-//            "type": "string"
-//          }
-//        ]
-//      },null]
-//    }
   ]
 }
